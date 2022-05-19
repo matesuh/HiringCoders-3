@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF7FA;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0px 15px; 
+}

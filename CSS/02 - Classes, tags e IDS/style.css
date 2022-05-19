@@ -1,0 +1,21 @@
+/* Tags */
+body{
+    text-align: center;
+}
+
+
+/* IDs */
+#login{
+    background-color: darkcyan;
+    color: white;
+}
+
+#registre{
+    background-color: orangered;
+}
+
+
+/* Class */
+.copy{
+    font-size: 8px;
+}

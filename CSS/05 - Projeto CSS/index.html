@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="img"></div>
+            <img src="./img/logo.jpg" alt="logo">
+        </div>
+            <ul>
+                <li>
+                    <a target="blank" href="https://github.com/">Github</a>
+                </li>
+                <li>
+                    <a target="blank" href="https://wa.me/21999177075">Contact</a>
+                </li>
+                <li>
+                    <a target="blank" href="mailto:msbdacosta@hotmail.com">E-mail</a>
+                </li>
+            </ul>
+    </header>
+
+    <main>
+        <section class="container">
+            <div>
+                <h1>Matheus Santos</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div onclick="displayAbout()" class="arrow">
+                <i id="animation" class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quam, ipsa vel iure facere cupiditate cum.</p>
+            </div>
+
+            <div class="form">
+                <p>Deixe seu contato!</p>
+                <form action="">
+                    <input type="text" placeholder="your e-mail :D">
+                    <button>Send!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        function displayAbout(){
+            let arrow = document.getElementById("animation")
+            arrow.classList.toggle("rotate")
+            let display = document.getElementById("about")
+            display.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>

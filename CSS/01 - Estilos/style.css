@@ -1,0 +1,13 @@
+body{
+    color: rebeccapurple;
+}
+
+li{
+    text-decoration: underline;
+    color: darkcyan;
+    
+}
+
+ul{
+    border: 1px solid black;
+}
