@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+// import Repositories from './Repositories'
 
-ReactDOM.render(<App title="Hello World" />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
